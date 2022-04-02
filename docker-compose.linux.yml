@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  voidr.id.server:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+    ports:
+      - "8000:80"
+      - "44300:443"
+    volumes:
+      - ${HOME}/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+      - ${HOME}/.aspnet/https:/root/.aspnet/https:ro

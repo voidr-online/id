@@ -1,0 +1,3 @@
+[submodule "ExternalAnnotations"]
+	path = ExternalAnnotations
+	url = git@github.com:voidr-online/jetbrains-external-annotations.git

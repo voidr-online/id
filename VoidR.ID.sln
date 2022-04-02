@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoidR.ID.Server", "src\Server\VoidR.ID.Server.csproj", "{272F18FB-9FA2-4F5D-840E-036255F2365A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19BAB751-9C0B-4C4B-9D71-396F1B44D3DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4B4201BD-888E-4904-AD2D-FAB7A8A3400A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F37A432-81CD-46ED-A752-DFE9A84AE044}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoidR.ID.Infrastructure", "src\Infrastructure\VoidR.ID.Infrastructure.csproj", "{8AEBD746-75C5-4A45-A577-CCBDBAE3A255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoidR.ID.Identity", "src\Identity\VoidR.ID.Identity.csproj", "{E2B42323-D62C-4104-A1EA-37F5AC531035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker-compose", "docker-compose.dcproj", "{3ECD0A22-40CA-4D4F-977D-E6A516B39BBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{570CBBCF-B8F6-4C06-B820-BEB78A52EBAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "schemas", "schemas", "{786FD0AD-FDFA-4957-A4EC-8FA6D71A2E39}"
+	ProjectSection(SolutionItems) = preProject
+		docs\schemas\secrets.schema.json = docs\schemas\secrets.schema.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{272F18FB-9FA2-4F5D-840E-036255F2365A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272F18FB-9FA2-4F5D-840E-036255F2365A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272F18FB-9FA2-4F5D-840E-036255F2365A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272F18FB-9FA2-4F5D-840E-036255F2365A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AEBD746-75C5-4A45-A577-CCBDBAE3A255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEBD746-75C5-4A45-A577-CCBDBAE3A255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEBD746-75C5-4A45-A577-CCBDBAE3A255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEBD746-75C5-4A45-A577-CCBDBAE3A255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B42323-D62C-4104-A1EA-37F5AC531035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B42323-D62C-4104-A1EA-37F5AC531035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B42323-D62C-4104-A1EA-37F5AC531035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B42323-D62C-4104-A1EA-37F5AC531035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECD0A22-40CA-4D4F-977D-E6A516B39BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECD0A22-40CA-4D4F-977D-E6A516B39BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECD0A22-40CA-4D4F-977D-E6A516B39BBF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECD0A22-40CA-4D4F-977D-E6A516B39BBF}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{272F18FB-9FA2-4F5D-840E-036255F2365A} = {19BAB751-9C0B-4C4B-9D71-396F1B44D3DF}
+		{8AEBD746-75C5-4A45-A577-CCBDBAE3A255} = {19BAB751-9C0B-4C4B-9D71-396F1B44D3DF}
+		{E2B42323-D62C-4104-A1EA-37F5AC531035} = {19BAB751-9C0B-4C4B-9D71-396F1B44D3DF}
+		{786FD0AD-FDFA-4957-A4EC-8FA6D71A2E39} = {570CBBCF-B8F6-4C06-B820-BEB78A52EBAF}
+	EndGlobalSection
+EndGlobal
